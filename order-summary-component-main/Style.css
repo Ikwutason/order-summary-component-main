@@ -1,0 +1,75 @@
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 14px;
+}
+.container{
+    margin-left: 35%;
+    border: 2px solid white;
+    width: 375px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+Img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+}
+p{
+    color: hsl(224, 23%, 55%);
+}
+.content{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.content-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.annual{
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 5px;
+
+}
+.dollar{
+    margin-top: 0px;
+}
+a{
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+button{
+    margin-top: 20px;
+    background-color: hsl(228, 45%, 44%);
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.cancel{
+    margin-top: 20px;
+    color: hsl(228, 45%, 44%);
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+.attribution{
+    margin-bottom: 10px;
+}
